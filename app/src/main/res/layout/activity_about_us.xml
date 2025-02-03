@@ -1,0 +1,101 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="16dp">
+
+        <TextView
+            android:id="@+id/tvTitle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="About Us"
+            android:textSize="24sp"
+            android:textStyle="bold"
+            android:layout_marginBottom="16dp"/>
+
+        <TextView
+            android:id="@+id/tvDescription"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Welcome to Note Editor, your ultimate companion for organizing ideas, tasks, and everything in between. At Note Editor, we're passionate about simplifying your daily life through intuitive note-taking solutions that empower productivity and creativity."
+            android:textSize="16sp"
+            android:lineSpacingMultiplier="1.2"
+            android:layout_below="@id/tvTitle"
+            android:layout_marginBottom="16dp"/>
+
+        <TextView
+            android:id="@+id/tvMissionTitle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Our Mission"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:layout_below="@id/tvDescription"
+            android:layout_marginTop="16dp"
+            android:layout_marginBottom="8dp"/>
+
+        <TextView
+            android:id="@+id/tvMissionDescription"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/tvMissionTitle"
+            android:layout_marginTop="-8dp"
+            android:lineSpacingMultiplier="1.2"
+            android:text="Our mission is to provide you with a seamless note-taking experience that adapts to your unique needs. Whether you're jotting down quick reminders, drafting detailed plans, or capturing moments of inspiration, Note Editor is designed to be your reliable digital notebook."
+            android:textSize="16sp" />
+
+        <TextView
+            android:id="@+id/tvTeamTitle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Our Team"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:layout_below="@id/tvMissionDescription"
+            android:layout_marginTop="16dp"
+            android:layout_marginBottom="8dp"/>
+
+        <!-- Team Image -->
+        <ImageView
+            android:id="@+id/imgTeam"
+            android:layout_width="wrap_content"
+            android:layout_height="200dp"
+            android:src="@drawable/team"
+            android:layout_below="@id/tvTeamTitle"
+            android:layout_centerHorizontal="true"
+            android:layout_marginBottom="16dp"/>
+
+        <TextView
+            android:id="@+id/tvTeamDescription"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Behind Note Editor is a dedicated team of developers and designers committed to innovation and user-centric design. We strive to continuously improve Note Editor based on your feedback and evolving technological advancements."
+            android:textSize="16sp"
+            android:lineSpacingMultiplier="1.2"
+            android:layout_below="@id/imgTeam"/>
+
+        <TextView
+            android:id="@+id/tvContactTitle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Get in Touch"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:layout_below="@id/tvTeamDescription"
+            android:layout_marginTop="16dp"
+            android:layout_marginBottom="8dp"/>
+
+        <TextView
+            android:id="@+id/tvContactDescription"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Have questions, suggestions, or feedback? We'd love to hear from you! Reach out to us at timi@gmail.com."
+            android:textSize="16sp"
+            android:lineSpacingMultiplier="1.2"
+            android:layout_below="@id/tvContactTitle"/>
+
+    </RelativeLayout>
+</ScrollView>
